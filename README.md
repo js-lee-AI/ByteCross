@@ -1,14 +1,8 @@
 <p align="center">
-  <img src="assets/banner.png" width="100%" alt="ByteCross, the byte crossover of activation and KV-cache sparsity in LLM decoding" />
+  <img src="assets/banner.png" width="100%" alt="ByteCross, where activation sparsity and KV-cache sparsity cross in LLM decoding" />
 </p>
 
 <div align="center">
-
-# ByteCross
-
-### The byte crossover of activation and KV-cache sparsity
-
-<em>Where Activation Sparsity and KV-Cache Sparsity Cross in LLM Decoding</em>
 
 [![Code MIT](https://img.shields.io/badge/Code-MIT-green.svg)](LICENSE)
 [![Paper CC BY 4.0](https://img.shields.io/badge/Paper-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
