@@ -1,0 +1,21 @@
+{
+  "blocks": 4,
+  "groups": [
+    {
+      "name": "p70_s30",
+      "contexts": [28672, 32768, 36864, 40960, 45056, 49152, 53248],
+      "cells": [
+        {"id": "proj70", "mode": "proj", "projection_keep": 0.7},
+        {"id": "sel30", "mode": "sel", "kv_keep": 0.3}
+      ]
+    },
+    {
+      "name": "p50_s30",
+      "contexts": [57344, 61440, 65536, 69632, 73728, 77824, 81920, 86016],
+      "cells": [
+        {"id": "proj50", "mode": "proj", "projection_keep": 0.5},
+        {"id": "sel30", "mode": "sel", "kv_keep": 0.3}
+      ]
+    }
+  ]
+}

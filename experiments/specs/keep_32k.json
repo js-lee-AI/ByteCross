@@ -1,0 +1,22 @@
+{
+  "blocks": 3,
+  "groups": [
+    {
+      "name": "keep",
+      "contexts": [32768],
+      "cells": [
+        {"id": "dense", "mode": "dense"},
+        {"id": "proj70", "mode": "proj", "projection_keep": 0.7},
+        {"id": "proj60", "mode": "proj", "projection_keep": 0.6},
+        {"id": "proj50", "mode": "proj", "projection_keep": 0.5},
+        {"id": "proj40", "mode": "proj", "projection_keep": 0.4},
+        {"id": "proj30", "mode": "proj", "projection_keep": 0.3},
+        {"id": "sel70", "mode": "sel", "kv_keep": 0.7},
+        {"id": "sel50", "mode": "sel", "kv_keep": 0.5},
+        {"id": "sel30", "mode": "sel", "kv_keep": 0.3},
+        {"id": "sel20", "mode": "sel", "kv_keep": 0.2},
+        {"id": "sel10", "mode": "sel", "kv_keep": 0.1}
+      ]
+    }
+  ]
+}

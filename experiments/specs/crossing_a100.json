@@ -1,0 +1,29 @@
+{
+  "blocks": 5,
+  "groups": [
+    {
+      "name": "p70_s30",
+      "contexts": [20480, 24576, 28672, 32768, 36864, 40960, 45056, 49152, 53248],
+      "cells": [
+        {"id": "proj70", "mode": "proj", "projection_keep": 0.7},
+        {"id": "sel30", "mode": "sel", "kv_keep": 0.3}
+      ]
+    },
+    {
+      "name": "p50_s30",
+      "contexts": [36864, 40960, 45056, 49152, 53248, 57344, 61440, 65536, 69632, 73728, 77824, 81920],
+      "cells": [
+        {"id": "proj50", "mode": "proj", "projection_keep": 0.5},
+        {"id": "sel30", "mode": "sel", "kv_keep": 0.3}
+      ]
+    },
+    {
+      "name": "p50_s50",
+      "contexts": [57344, 65536, 73728, 81920, 90112, 98304, 106496, 114688, 122880, 131072],
+      "cells": [
+        {"id": "proj50", "mode": "proj", "projection_keep": 0.5},
+        {"id": "sel50", "mode": "sel", "kv_keep": 0.5}
+      ]
+    }
+  ]
+}

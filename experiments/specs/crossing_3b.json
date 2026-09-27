@@ -1,0 +1,13 @@
+{
+  "blocks": 5,
+  "groups": [
+    {
+      "name": "p50_s30",
+      "contexts": [4096, 8192, 12288, 16384, 20480, 24576, 28672, 32768],
+      "cells": [
+        {"id": "proj50", "mode": "proj", "projection_keep": 0.5},
+        {"id": "sel30", "mode": "sel", "kv_keep": 0.3}
+      ]
+    }
+  ]
+}

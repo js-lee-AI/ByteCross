@@ -1,0 +1,14 @@
+{
+  "blocks": 3,
+  "groups": [
+    {
+      "name": "sweep",
+      "contexts": [4096, 8192, 16384, 32768, 49152],
+      "cells": [
+        {"id": "dense", "mode": "dense"},
+        {"id": "proj50", "mode": "proj", "projection_keep": 0.5},
+        {"id": "sel30", "mode": "sel", "kv_keep": 0.3}
+      ]
+    }
+  ]
+}

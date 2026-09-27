@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "bytecross: code for Where Activation Sparsity and KV-Cache Sparsity Cross in LLM Decoding"
+type: software
+authors:
+  - family-names: Lee
+    given-names: Jungseob
+  - family-names: Lee
+    given-names: Seungyoon
+  - family-names: Hong
+    given-names: Seongtae
+  - family-names: Eo
+    given-names: Sugyeong
+  - family-names: Lim
+    given-names: Heuiseok
+repository-code: "https://github.com/js-lee-AI/bytecross"
+license: MIT
+version: "0.1.0"
+date-released: "2026-09-28"
+keywords:
+  - "llm-inference"
+  - "activation-sparsity"
+  - "kv-cache"
+preferred-citation:
+  type: article
+  title: "Where Activation Sparsity and KV-Cache Sparsity Cross in LLM Decoding"
+  authors:
+    - family-names: Lee
+      given-names: Jungseob
+    - family-names: Lee
+      given-names: Seungyoon
+    - family-names: Hong
+      given-names: Seongtae
+    - family-names: Eo
+      given-names: Sugyeong
+    - family-names: Lim
+      given-names: Heuiseok
+  year: 2026

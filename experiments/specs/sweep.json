@@ -1,0 +1,15 @@
+{
+  "blocks": 3,
+  "groups": [
+    {
+      "name": "sweep",
+      "contexts": [2048, 4096, 8192, 16384, 32768, 65536, 98304, 131072],
+      "cells": [
+        {"id": "dense", "mode": "dense"},
+        {"id": "proj50", "mode": "proj", "projection_keep": 0.5},
+        {"id": "sel30", "mode": "sel", "kv_keep": 0.3},
+        {"id": "p50_s30", "mode": "both", "projection_keep": 0.5, "kv_keep": 0.3}
+      ]
+    }
+  ]
+}
