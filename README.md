@@ -205,11 +205,12 @@ Perplexity increase over dense decoding at 32K and retrieval accuracy on Llama-3
 | configuration | dPPL | passkey 32K | 64K | 127K | multi-key 32K | 64K | 127K |
 |---|---|---|---|---|---|---|---|
 | Dense | 0 | 40/40 | 40/40 | 40/40 | 40/40 | 40/40 | 36/40 |
+| KV window, 30% | 0.06 | 16/40 | 16/40 | 16/40 | 16/40 | 16/40 | 14/40 |
 | Selection, 30% | <0.01 | 40/40 | 40/40 | 40/40 | 40/40 | 40/40 | 36/40 |
 | Selection, 20% | <0.01 | 40/40 | 40/40 | 40/40 | 40/40 | 40/40 | 36/40 |
 | Proj. 50% + sel. 20% | 0.96 | 40/40 | 40/40 | 40/40 | 40/40 | 40/40 | 36/40 |
 
-The paper's table also has a KV-window row, a baseline that is not part of this release. Reproduce with `python experiments/table3_retrieval.py`.
+Reproduce with `python experiments/table3_retrieval.py`, which rebuilds every row except the KV window. The window records are in `records/quality/window/` as data only.
 
 ### Composition under a perplexity budget (paper Table 4)
 
@@ -245,7 +246,7 @@ cd bytecross
 pip install -e ".[harness,test]"
 ```
 
-The timing and quality records behind the tables are in `records/`, one JSON file per timing cell and one per quality run, in the format the harness writes. A timing record holds the mode, the context, both keep ratios, the step time in ms and the throughput, the model and GPU, and the block, group and cell it belongs to. Every script below reads these records and prints the rows it rebuilds, on a CPU in a few seconds.
+The measurements behind the tables and figures are in `records/`, and [records/README.md](records/README.md) lists the paper table or figure that each folder backs. The campaign and quality records use the format the harness writes, one JSON file per timing cell and one per quality run. A timing record holds the mode, the context, both keep ratios, the step time in ms and the throughput, the model and GPU, and the block, group and cell it belongs to. Every script below reads these records and prints the rows it rebuilds, on a CPU in a few seconds. The window baseline of Figure 5 and Tables 3, 10 and 11 and the measurements of Tables 6 to 8, 14 and 15 are included as data that no script here rebuilds.
 
 | paper | command |
 |---|---|
@@ -306,7 +307,7 @@ bytecross/convert.py       Hugging Face to gpt-fast checkpoint conversion
 bytecross/cli.py           the bytecross command
 examples/quickstart.py     the CPU demo shown above
 experiments/               one script per paper table or figure, and the campaign specs
-records/                   the timing and quality records behind the paper
+records/                   the measurements behind the paper, listed in records/README.md
 tests/                     fast CPU tests that CI runs
 ```
 

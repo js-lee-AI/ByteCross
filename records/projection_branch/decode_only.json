@@ -1,0 +1,209 @@
+{
+ "results": [
+  {
+   "model": "Llama-3.1-8B-Instruct",
+   "gpu": "NVIDIA A100-SXM4-80GB",
+   "projection_keep": 0.5,
+   "launches": [
+    {
+     "dense_tokens_per_sec": 97.95,
+     "sparse_tokens_per_sec": 134.67,
+     "dense_samples": [
+      97.95,
+      98.02,
+      98.0,
+      98.04,
+      97.74
+     ],
+     "sparse_samples": [
+      134.32,
+      134.84,
+      134.95,
+      134.76,
+      134.48
+     ]
+    },
+    {
+     "dense_tokens_per_sec": 97.81,
+     "sparse_tokens_per_sec": 134.57,
+     "dense_samples": [
+      97.96,
+      97.77,
+      97.66,
+      98.01,
+      97.68
+     ],
+     "sparse_samples": [
+      134.49,
+      135.1,
+      134.43,
+      134.38,
+      134.46
+     ]
+    },
+    {
+     "dense_tokens_per_sec": 97.85,
+     "sparse_tokens_per_sec": 134.48,
+     "dense_samples": [
+      97.88,
+      97.85,
+      97.86,
+      97.76,
+      97.87
+     ],
+     "sparse_samples": [
+      134.67,
+      136.06,
+      133.94,
+      134.19,
+      133.54
+     ]
+    },
+    {
+     "dense_tokens_per_sec": 97.79,
+     "sparse_tokens_per_sec": 134.51,
+     "dense_samples": [
+      97.95,
+      97.92,
+      97.82,
+      97.62,
+      97.64
+     ],
+     "sparse_samples": [
+      133.47,
+      134.75,
+      134.65,
+      135.35,
+      134.36
+     ]
+    },
+    {
+     "dense_tokens_per_sec": 100.01,
+     "sparse_tokens_per_sec": 134.33,
+     "dense_samples": [
+      99.98,
+      100.16,
+      99.84,
+      100.15,
+      99.91
+     ],
+     "sparse_samples": [
+      134.59,
+      134.27,
+      134.5,
+      134.56,
+      133.74
+     ]
+    }
+   ]
+  },
+  {
+   "model": "Llama-3.1-8B-Instruct",
+   "gpu": "NVIDIA RTX A6000",
+   "projection_keep": 0.5,
+   "launches": [
+    {
+     "dense_tokens_per_sec": 45.06,
+     "sparse_tokens_per_sec": 74.2,
+     "dense_samples": [
+      45.13,
+      45.17,
+      45.2,
+      44.66,
+      45.16
+     ],
+     "sparse_samples": [
+      73.48,
+      75.68,
+      76.85,
+      76.35,
+      68.65
+     ]
+    },
+    {
+     "dense_tokens_per_sec": 43.28,
+     "sparse_tokens_per_sec": 75.56,
+     "dense_samples": [
+      42.87,
+      45.09,
+      45.18,
+      40.13,
+      43.15
+     ],
+     "sparse_samples": [
+      72.87,
+      75.6,
+      76.4,
+      76.89,
+      76.03
+     ]
+    },
+    {
+     "dense_tokens_per_sec": 45.19,
+     "sparse_tokens_per_sec": 74.59,
+     "dense_samples": [
+      45.19,
+      45.18,
+      45.14,
+      45.22,
+      45.2
+     ],
+     "sparse_samples": [
+      68.75,
+      75.76,
+      76.14,
+      76.4,
+      75.9
+     ]
+    },
+    {
+     "dense_tokens_per_sec": 44.69,
+     "sparse_tokens_per_sec": 76.07,
+     "dense_samples": [
+      45.14,
+      45.23,
+      42.64,
+      45.19,
+      45.26
+     ],
+     "sparse_samples": [
+      76.44,
+      76.51,
+      75.46,
+      75.86,
+      76.08
+     ]
+    },
+    {
+     "dense_tokens_per_sec": 43.06,
+     "sparse_tokens_per_sec": 76.03,
+     "dense_samples": [
+      42.71,
+      45.17,
+      45.18,
+      38.98,
+      43.26
+     ],
+     "sparse_samples": [
+      76.21,
+      77.11,
+      75.26,
+      76.06,
+      75.5
+     ]
+    }
+   ]
+  },
+  {
+   "model": "Mistral-7B-v0.3",
+   "gpu": "NVIDIA RTX A6000",
+   "projection_keep": 0.5,
+   "launches": [
+    {
+     "dense_tokens_per_sec": 48.0,
+     "sparse_tokens_per_sec": 82.21
+    }
+   ]
+  }
+ ]
+}

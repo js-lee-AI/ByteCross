@@ -1,0 +1,26 @@
+{
+ "mode": "proj",
+ "context": 61440,
+ "projection_keep": 0.5,
+ "kv_keep": 1.0,
+ "keep_tokens": null,
+ "static_tokens": null,
+ "allocated_tokens": 61712,
+ "tokens_per_sec": 40.576396124317654,
+ "tokens_per_sec_runs": [
+  40.18387593037749,
+  40.50826708629741,
+  40.71625114609868,
+  40.68466271475003,
+  40.788923744064675
+ ],
+ "ms_per_token": 24.644869813874244,
+ "prefill_seconds": 23.994109869003296,
+ "gather_seconds": null,
+ "model": "Llama-3.1-8B-Instruct",
+ "gpu": "NVIDIA RTX A6000",
+ "torch": "2.4.0+cu121",
+ "block": 4,
+ "group": "p50_s30",
+ "cell": "proj50"
+}

@@ -1,0 +1,44 @@
+{
+ "model": "Llama-3.1-8B-Instruct",
+ "gpu": "NVIDIA RTX A6000",
+ "prompt_tokens": 128,
+ "generated_tokens": 64,
+ "results": [
+  {
+   "batch": 1,
+   "tokens_per_sec": 35.92,
+   "ms_per_token": 27.843,
+   "wall_seconds": 1.7819
+  },
+  {
+   "batch": 4,
+   "tokens_per_sec": 133.52,
+   "ms_per_token": 29.959,
+   "wall_seconds": 1.9173
+  },
+  {
+   "batch": 8,
+   "tokens_per_sec": 242.5,
+   "ms_per_token": 32.99,
+   "wall_seconds": 2.1114
+  },
+  {
+   "batch": 16,
+   "tokens_per_sec": 409.6,
+   "ms_per_token": 39.063,
+   "wall_seconds": 2.5
+  },
+  {
+   "batch": 32,
+   "tokens_per_sec": 632.75,
+   "ms_per_token": 50.573,
+   "wall_seconds": 3.2366
+  },
+  {
+   "batch": 64,
+   "tokens_per_sec": 863.6,
+   "ms_per_token": 74.108,
+   "wall_seconds": 4.7429
+  }
+ ]
+}

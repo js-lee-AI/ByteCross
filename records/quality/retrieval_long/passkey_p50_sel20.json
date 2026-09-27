@@ -1,0 +1,742 @@
+{
+ "test": "passkey",
+ "projection_keep": 0.5,
+ "kv_keep": 0.2,
+ "seed": 20260903,
+ "summary": {
+  "65536": {
+   "correct": 40,
+   "trials": 40,
+   "distractor_answers": 0,
+   "keep_tokens": 13112
+  },
+  "130048": {
+   "correct": 40,
+   "trials": 40,
+   "distractor_answers": 0,
+   "keep_tokens": 26014
+  }
+ },
+ "trials": [
+  {
+   "context": 65536,
+   "depth": 0.05,
+   "code": "840872",
+   "prediction": "840872",
+   "answer": "840872assistant\n\nThat",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.05,
+   "code": "797578",
+   "prediction": "797578",
+   "answer": "797578assistant\n\nThat",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.05,
+   "code": "378530",
+   "prediction": "378530",
+   "answer": "378530assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.05,
+   "code": "324043",
+   "prediction": "324043",
+   "answer": "324043assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.05,
+   "code": "953772",
+   "prediction": "953772",
+   "answer": "953772assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.05,
+   "code": "958111",
+   "prediction": "958111",
+   "answer": "958111assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.05,
+   "code": "590572",
+   "prediction": "590572",
+   "answer": "590572assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.05,
+   "code": "377105",
+   "prediction": "377105",
+   "answer": "377105assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.25,
+   "code": "789776",
+   "prediction": "789776",
+   "answer": "789776assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.25,
+   "code": "385708",
+   "prediction": "385708",
+   "answer": "385708assistant\n\nThis",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.25,
+   "code": "965384",
+   "prediction": "965384",
+   "answer": "965384assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.25,
+   "code": "819236",
+   "prediction": "819236",
+   "answer": "819236assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.25,
+   "code": "277146",
+   "prediction": "277146",
+   "answer": "277146assistant\n\nThis",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.25,
+   "code": "878424",
+   "prediction": "878424",
+   "answer": "878424assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.25,
+   "code": "316281",
+   "prediction": "316281",
+   "answer": "316281assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.25,
+   "code": "823115",
+   "prediction": "823115",
+   "answer": "823115assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.5,
+   "code": "188364",
+   "prediction": "188364",
+   "answer": "188364assistant\n\nNow",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.5,
+   "code": "200220",
+   "prediction": "200220",
+   "answer": "200220assistant\n\nThat",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.5,
+   "code": "912873",
+   "prediction": "912873",
+   "answer": "912873assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.5,
+   "code": "358438",
+   "prediction": "358438",
+   "answer": "358438assistant\n\nThat",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.5,
+   "code": "141640",
+   "prediction": "141640",
+   "answer": "141640assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.5,
+   "code": "689505",
+   "prediction": "689505",
+   "answer": "689505assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.5,
+   "code": "909001",
+   "prediction": "909001",
+   "answer": "909001assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.5,
+   "code": "745915",
+   "prediction": "745915",
+   "answer": "745915assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.75,
+   "code": "979793",
+   "prediction": "979793",
+   "answer": "979793assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.75,
+   "code": "977486",
+   "prediction": "977486",
+   "answer": "977486assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.75,
+   "code": "390645",
+   "prediction": "390645",
+   "answer": "390645assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.75,
+   "code": "683413",
+   "prediction": "683413",
+   "answer": "683413assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.75,
+   "code": "366051",
+   "prediction": "366051",
+   "answer": "366051assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.75,
+   "code": "494474",
+   "prediction": "494474",
+   "answer": "494474assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.75,
+   "code": "444421",
+   "prediction": "444421",
+   "answer": "444421assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.75,
+   "code": "776862",
+   "prediction": "776862",
+   "answer": "776862assistant\n\nThat",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.95,
+   "code": "505896",
+   "prediction": "505896",
+   "answer": "505896assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.95,
+   "code": "554268",
+   "prediction": "554268",
+   "answer": "554268assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.95,
+   "code": "367248",
+   "prediction": "367248",
+   "answer": "367248assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.95,
+   "code": "512201",
+   "prediction": "512201",
+   "answer": "512201assistant\n\nThat",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.95,
+   "code": "804463",
+   "prediction": "804463",
+   "answer": "804463assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.95,
+   "code": "631804",
+   "prediction": "631804",
+   "answer": "631804assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.95,
+   "code": "749197",
+   "prediction": "749197",
+   "answer": "749197assistant\n\nYou",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 65536,
+   "depth": 0.95,
+   "code": "741195",
+   "prediction": "741195",
+   "answer": "741195assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.05,
+   "code": "332236",
+   "prediction": "332236",
+   "answer": "332236assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.05,
+   "code": "992468",
+   "prediction": "992468",
+   "answer": "992468assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.05,
+   "code": "956784",
+   "prediction": "956784",
+   "answer": "956784assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.05,
+   "code": "236794",
+   "prediction": "236794",
+   "answer": "236794assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.05,
+   "code": "512073",
+   "prediction": "512073",
+   "answer": "512073assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.05,
+   "code": "402296",
+   "prediction": "402296",
+   "answer": "402296assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.05,
+   "code": "925380",
+   "prediction": "925380",
+   "answer": "925380assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.05,
+   "code": "900519",
+   "prediction": "900519",
+   "answer": "900519assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.25,
+   "code": "680028",
+   "prediction": "680028",
+   "answer": "680028assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.25,
+   "code": "173679",
+   "prediction": "173679",
+   "answer": "173679assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.25,
+   "code": "220549",
+   "prediction": "220549",
+   "answer": "220549assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.25,
+   "code": "757590",
+   "prediction": "757590",
+   "answer": "757590assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.25,
+   "code": "928569",
+   "prediction": "928569",
+   "answer": "928569assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.25,
+   "code": "474412",
+   "prediction": "474412",
+   "answer": "474412assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.25,
+   "code": "974368",
+   "prediction": "974368",
+   "answer": "974368assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.25,
+   "code": "382553",
+   "prediction": "382553",
+   "answer": "382553assistant\n\n382",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.5,
+   "code": "775146",
+   "prediction": "775146",
+   "answer": "775146assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.5,
+   "code": "985589",
+   "prediction": "985589",
+   "answer": "985589assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.5,
+   "code": "891759",
+   "prediction": "891759",
+   "answer": "891759assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.5,
+   "code": "559651",
+   "prediction": "559651",
+   "answer": "559651assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.5,
+   "code": "357398",
+   "prediction": "357398",
+   "answer": "357398assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.5,
+   "code": "660566",
+   "prediction": "660566",
+   "answer": "660566assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.5,
+   "code": "570745",
+   "prediction": "570745",
+   "answer": "570745assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.5,
+   "code": "591767",
+   "prediction": "591767",
+   "answer": "591767assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.75,
+   "code": "781057",
+   "prediction": "781057",
+   "answer": "781057assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.75,
+   "code": "707190",
+   "prediction": "707190",
+   "answer": "707190assistant\n\nThe access",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.75,
+   "code": "884853",
+   "prediction": "884853",
+   "answer": "884853assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.75,
+   "code": "911568",
+   "prediction": "911568",
+   "answer": "911568assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.75,
+   "code": "755911",
+   "prediction": "755911",
+   "answer": "755911assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.75,
+   "code": "788877",
+   "prediction": "788877",
+   "answer": "788877assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.75,
+   "code": "830787",
+   "prediction": "830787",
+   "answer": "830787assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.75,
+   "code": "521141",
+   "prediction": "521141",
+   "answer": "521141assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.95,
+   "code": "513819",
+   "prediction": "513819",
+   "answer": "513819assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.95,
+   "code": "746596",
+   "prediction": "746596",
+   "answer": "746596assistant\n\n746",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.95,
+   "code": "138669",
+   "prediction": "138669",
+   "answer": "138669assistant\n\nThe six",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.95,
+   "code": "333095",
+   "prediction": "333095",
+   "answer": "333095assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.95,
+   "code": "499484",
+   "prediction": "499484",
+   "answer": "499484assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.95,
+   "code": "229141",
+   "prediction": "229141",
+   "answer": "229141assistant\n\nI",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.95,
+   "code": "756321",
+   "prediction": "756321",
+   "answer": "756321assistant\n\nThe",
+   "correct": true,
+   "distractor": false
+  },
+  {
+   "context": 130048,
+   "depth": 0.95,
+   "code": "543166",
+   "prediction": "543166",
+   "answer": "543166assistant\n\nThis",
+   "correct": true,
+   "distractor": false
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "model": "Llama-3.1-8B-Instruct",
+ "protocol": "WikiText-2 raw test, 128 chunks of 2048 tokens",
+ "results": [
+  {
+   "variant": "dense",
+   "projection_keep": 1.0,
+   "ppl": 7.196017742156982
+  },
+  {
+   "variant": "ff_only",
+   "projection_keep": 0.7,
+   "ppl": 7.254410266876221
+  },
+  {
+   "variant": "full",
+   "projection_keep": 0.7,
+   "ppl": 7.2710862159729
+  },
+  {
+   "variant": "ff_only",
+   "projection_keep": 0.6,
+   "ppl": 7.360698223114014
+  },
+  {
+   "variant": "full",
+   "projection_keep": 0.6,
+   "ppl": 7.403473854064941
+  },
+  {
+   "variant": "ff_only",
+   "projection_keep": 0.5,
+   "ppl": 7.589303493499756
+  },
+  {
+   "variant": "full",
+   "projection_keep": 0.5,
+   "ppl": 7.6804704666137695
+  },
+  {
+   "variant": "ff_only",
+   "projection_keep": 0.4,
+   "ppl": 8.095820426940918
+  },
+  {
+   "variant": "full",
+   "projection_keep": 0.4,
+   "ppl": 8.300188064575195
+  },
+  {
+   "variant": "ff_only",
+   "projection_keep": 0.3,
+   "ppl": 9.334909439086914
+  },
+  {
+   "variant": "full",
+   "projection_keep": 0.3,
+   "ppl": 10.00245189666748
+  }
+ ]
+}

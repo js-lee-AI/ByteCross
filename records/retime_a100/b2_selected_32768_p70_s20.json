@@ -1,0 +1,26 @@
+{
+ "mode": "both",
+ "context": 32768,
+ "projection_keep": 0.7,
+ "kv_keep": 0.2,
+ "keep_tokens": 6556,
+ "static_tokens": 6301,
+ "allocated_tokens": 33040,
+ "tokens_per_sec": 102.43326556353051,
+ "tokens_per_sec_runs": [
+  100.17544427079011,
+  103.07424821160282,
+  103.17202857011029,
+  102.93271932272478,
+  102.81188744242452
+ ],
+ "ms_per_token": 9.762453578908762,
+ "prefill_seconds": 5.901385307312012,
+ "gather_seconds": 0.008562306989915669,
+ "model": "Llama-3.1-8B-Instruct",
+ "gpu": "NVIDIA A100-SXM4-80GB",
+ "torch": "2.4.0+cu121",
+ "block": 2,
+ "group": "selected",
+ "cell": "p70_s20"
+}

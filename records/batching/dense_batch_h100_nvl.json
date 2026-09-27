@@ -1,0 +1,44 @@
+{
+ "model": "Llama-3.1-8B-Instruct",
+ "gpu": "NVIDIA H100 NVL",
+ "prompt_tokens": 128,
+ "generated_tokens": 64,
+ "results": [
+  {
+   "batch": 1,
+   "tokens_per_sec": 39.93,
+   "ms_per_token": 25.041,
+   "wall_seconds": 1.6026
+  },
+  {
+   "batch": 4,
+   "tokens_per_sec": 147.3,
+   "ms_per_token": 27.156,
+   "wall_seconds": 1.738
+  },
+  {
+   "batch": 8,
+   "tokens_per_sec": 262.99,
+   "ms_per_token": 30.42,
+   "wall_seconds": 1.9468
+  },
+  {
+   "batch": 16,
+   "tokens_per_sec": 455.64,
+   "ms_per_token": 35.116,
+   "wall_seconds": 2.2474
+  },
+  {
+   "batch": 32,
+   "tokens_per_sec": 722.92,
+   "ms_per_token": 44.265,
+   "wall_seconds": 2.833
+  },
+  {
+   "batch": 64,
+   "tokens_per_sec": 1001.37,
+   "ms_per_token": 63.912,
+   "wall_seconds": 4.0904
+  }
+ ]
+}
